@@ -2,6 +2,7 @@ import streamlit as st
 import json
 from tools.tavily_tool import search_person
 from agents.profile_agent import generate_profile
+from groq import Groq
 
 st.set_page_config(
     page_title="AI Powered Affluent Profile Generator",
